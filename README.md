@@ -7,7 +7,7 @@ To upload the Soil-moisture sensor value in the Things mate using Arduino contro
 Arduino Controller  </br>
 Indoor gateway</br>
 LoRaWAN shield </br>
-HC-SR04 Ultrasonic sensor module </br>
+Soil moisture sensor </br>
 Power supply </br>
 Connecting wires </br>
 Bread board </br>
@@ -46,6 +46,21 @@ Bread board </br>
 Internet of Things (IoT) describes an emerging trend where a large number of embedded devices (things) are connected to the Internet. These connected devices communicate with people and other things and often provide sensor data to cloud storage and cloud computing resources where the data is processed and analyzed to gain important insights. Cheap cloud computing power and increased device connectivity is enabling this trend.IoT solutions are built for many vertical applications such as environmental monitoring and control, health monitoring, vehicle fleet monitoring, industrial monitoring and control, and home automation
 
 ![image](https://user-images.githubusercontent.com/71547910/235334044-c01d4261-d46f-4f62-b07f-72a7b6fce5d5.png)
+
+### Soil moisture sensor 
+
+The soil moisture sensor is one kind of sensor used to gauge the volumetric content of water within the soil. As the straight gravimetric dimension of soil moisture needs eliminating, drying, as well as sample weighting. These sensors measure the volumetric water content not directly with the help of some other rules of soil like dielectric constant, electrical resistance, otherwise interaction with neutrons, and replacement of the moisture content.
+
+#### Soil Moisture Sensor Pin Configuration
+VCC pin is used for power
+A0 pin is an analog output
+D0 pin is a digital output
+GND pin is a Ground
+This module also includes a potentiometer that will fix the threshold value, & the value can be evaluated by the comparator-LM393.
+
+![image](https://github.com/anishkumar-Embedded/Soil-moisture-sensor-interfacing-with-IoT-controller-and-uploading-the-data-in-the-cloud./assets/71547910/6926d6ff-bbf2-4421-b3e5-d7c19a7ba5b6)
+
+This sensor mainly utilizes capacitance to gauge the water content of the soil (dielectric permittivity). The working of this sensor can be done by inserting this sensor into the earth and the status of the water content in the soil can be reported in the form of a percent.This sensor makes it perfect to execute experiments within science courses like environmental science, agricultural science, biology, soil science, botany, and horticulture.
 
 ### What is LoRaWAN
 
